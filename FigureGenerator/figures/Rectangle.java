@@ -35,5 +35,4 @@ public class Rectangle extends Figure {
 		return String.format("{\"Figure:\" \"Square\", \"area\": %f, \"Bigger side lenght\": %f, \"Smaller side lenght\": %f, \"Color\": %s, \"Pos\": %s}", 
 				this.getArea(), this.getBiggerSideLenght(), this.getSmallerSideLenght(), this.getColor(), this.cords.toString());
 	}
-
 }
