@@ -1,7 +1,5 @@
 package figures;
 
-import java.math.*;
-
 public class Triangular extends Figure{
 	protected double side2;
 	protected double gamma;
@@ -39,7 +37,7 @@ public class Triangular extends Figure{
 	@Override
     public String toString() {
 		return String.format(
-		        "{\"Figure\": \"Trapezoid\", \"area\": %.2f, \"Side1 length\": %.2f, \"Side2 length\": %.2f, \"Gamma corner\": %.2f, \"Color\": \"%s\", \"Pos\": %s}",
+		        "{\"Figure\": \"Triangular\", \"area\": %.2f, \"Side1 length\": %.2f, \"Side2 length\": %.2f, \"Gamma corner\": %.2f, \"Color\": \"%s\", \"Pos\": %s}",
 		        this.getArea(),
 		        this.getSide1(),
 		        this.getSide2(),

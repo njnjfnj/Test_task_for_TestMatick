@@ -1,7 +1,5 @@
 package figures;
 
-import java.math.*;
-
 public class Trapezoid extends Figure{
 	protected double smallerSide;
 	protected double leftCorner;

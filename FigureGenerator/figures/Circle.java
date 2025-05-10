@@ -1,13 +1,11 @@
 package figures;
 
-import java.math.*;
-
-public class circle extends Figure {
-	public circle(int x, int y, String color, double radius) {
+public class Circle extends Figure {
+	public Circle(int x, int y, String color, double radius) {
         super(x, y, color, radius);
     }
 	
-	public circle(Coordinates cords, String color, double radius) {
+	public Circle(Coordinates cords, String color, double radius) {
         super(cords, color, radius);
     }
 	
@@ -25,4 +23,5 @@ public class circle extends Figure {
 		return String.format("{\"Figure:\" \"Circle\", \"area\": %f, \"Lenght\": %f, \"Color\": %s, \"Pos\": %s}", 
 				this.getArea(), this.getCircleLenght(), this.getColor(), this.cords.toString());
 	}
+	
 }

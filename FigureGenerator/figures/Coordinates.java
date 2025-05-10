@@ -1,7 +1,5 @@
 package figures;
 
-import java.math.*;
-
 public class Coordinates {
 	protected int x;
 	protected int y;
